@@ -14,7 +14,6 @@
     <link rel="stylesheet" href="{{ asset('crm/assets/css/style.css') }}">
     <!-- End layout styles -->
     <link rel="shortcut icon" href="{{ asset('crm/assets/images/setcol-logo.png') }}" />
-
     @stack('css')
   </head>
   <body>
@@ -53,7 +52,6 @@
     <script src="{{ asset('crm/assets/js/hoverable-collapse.js') }}"></script>
     <script src="{{ asset('crm/assets/js/misc.js') }}"></script>
     <!-- endinject -->
-
      @stack('js')
   </body>
 </html>
